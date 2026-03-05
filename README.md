@@ -1,19 +1,19 @@
 # Spotify-listening-analytics-dashboard
 Analysis of my Spotify listening habits using Power BI.
 
-Project Overview
+**Project Overview**
 
 This project analyzes my personal Spotify streaming data to uncover patterns in my music listening habits. Using Spotify’s exported account data in JSON format, I cleaned, transformed, and visualized the data to generate insights about my listening behavior over time using Power BI.
 
-Tool Used:
+**Tool Used**
 
-Power BI – Data cleaning, transformation, data modeling, analysis, and interactive dashboard creation.
+Power BI: Data cleaning, transformation, data modeling, analysis, and interactive dashboard creation.
 
-Data Source:
+**Data Source**
 
 The dataset was obtained from my personal Spotify account data export. The primary files used were the streaming history datasets, which contain information such as timestamps, artists, tracks, and milliseconds played.
 
-Data Preparation:
+**Data Preparation**
 
 The raw JSON files were imported into Power BI and transformed into a structured format for analysis. Key preparation steps included:
 
@@ -27,7 +27,7 @@ Splitting timestamps into separate date and time fields
 
 Creating a date table for time-based analysis
 
-Key Metrics Created:
+**Key Metrics Created**
 
 Using DAX measures in Power BI, the following metrics were developed:
 
@@ -45,7 +45,7 @@ Longest Listening Streak
 
 Listening time was formatted into hours and minutes for better readability across visuals and tooltips.
 
-Dashboard Features:
+**Dashboard Features**
 
 The dashboard provides an interactive view of my Spotify listening behavior, including:
 
@@ -61,7 +61,7 @@ Listening streak analysis
 
 Custom tooltips and formatted measures were used to display listening time clearly in hours and minutes.
 
-Insights
+**Insights**
 
 The analysis reveals patterns in my music consumption such as:
 
@@ -71,7 +71,7 @@ How my listening time varies across days
 
 Consistency in listening habits over time
 
-Outcome
+**Outcome**
 
 This project demonstrates practical data analytics skills including data cleaning in Power Query, data transformation, DAX calculations, and dashboard design using Power BI.
 
